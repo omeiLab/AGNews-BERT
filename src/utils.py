@@ -1,10 +1,10 @@
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 
 classes = {
-    'LABEL_0': 'World',
-    'LABEL_1': 'Sports',
-    'LABEL_2': 'Business',
-    'LABEL_3': 'Sci/Tech'
+    0: 'World',
+    1: 'Sports',
+    2: 'Business',
+    3: 'Sci/Tech'
 }
 
 def compute_metrics(pred):
